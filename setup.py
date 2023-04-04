@@ -7,11 +7,11 @@ import re
 from bs4 import BeautifulSoup
 import asyncio
 
-TOKEN = 'YOUR_BOT_TOKEN_HERE'
+TOKEN = '6104208249:AAHKry3PTJgdsRboITWt5SXp_4Rczu2dJjM'
 
 bot = telebot.TeleBot(TOKEN)
 
-button1 = telebot.types.InlineKeyboardButton(text="⚡Powered by ",url='https://t.me/heyboy2004')
+button1 = telebot.types.InlineKeyboardButton(text="⚡Powered by Malik Hamza ",url='https://t.me/noob_sir_6')
 button2 = telebot.types.InlineKeyboardButton(text="🔗 Gdrive channel ",url='https://t.me/GdtotLinkz')
 button3 = telebot.types.InlineKeyboardButton(text="📜 Status channel ",url='https://t.me/TmvStatus')
 keyboard = telebot.types.InlineKeyboardMarkup().add(telebot.types.InlineKeyboardButton('👨‍💻 Developed by', url='github.com/shinas101')).add(button1).add(button2).add(button3)
